@@ -1,4 +1,4 @@
-from app.celery import app
+from mailtest.celery import app
 
 from .utils import send_notification
 

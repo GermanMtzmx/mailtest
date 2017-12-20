@@ -18,7 +18,7 @@ class Env:
 
     ROOT_URLCONF = 'mailtest.urls'
 
-    WSGI_APPLICATION = 'app.wsgi.application'
+    WSGI_APPLICATION = 'mailtest.wsgi.application'
 
     LANGUAGE_CODE = 'en-us'
     TIME_ZONE = 'UTC'
@@ -79,7 +79,7 @@ class Env:
         'default': {
             'BACKEND': 'asgiref.inmemory.ChannelLayer',
             # 'BACKEND': 'asgi_redis.RedisChannelLayer',
-            'ROUTING': 'app.routing.channel_routing',
+            'ROUTING': 'mailtest.routing.channel_routing',
             # 'CONFIG': {
             #     'hosts': [('localhost', 6379)],
             # },

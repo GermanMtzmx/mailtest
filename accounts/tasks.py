@@ -5,7 +5,7 @@ from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
 from django.conf import settings
 
-from app.celery import app
+from mailtest.celery import app
 
 from .auth import passwd_token
 
