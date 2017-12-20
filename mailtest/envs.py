@@ -49,9 +49,9 @@ class Env:
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
-    EMAIL_HOST_USER = 'djrest1992@gmail.com'
-    EMAIL_HOST_PASSWORD = '|-|(0)m3'
-    DEFAULT_FROM_EMAIL = 'djrest1992@gmail.com'
+    EMAIL_HOST_USER = 'xti.store.mexico.1@gmail.com'
+    EMAIL_HOST_PASSWORD = '*hdz2323'
+    DEFAULT_FROM_EMAIL = 'xti.store.mexico.1@gmail.com'
     CORS_ORIGIN_ALLOW_ALL = True
     CORS_ORIGIN_WHITELIST = ()
     CORS_ALLOW_METHODS = (
