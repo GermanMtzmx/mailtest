@@ -1,0 +1,20 @@
+[
+{
+  "model": "accounts.user",
+  "pk": "Mw5dSGBvfVB",
+  "fields": {
+    "firstName": "User",
+    "lastName": "User",
+    "username": "user",
+    "password": "pbkdf2_sha256$100000$AtIg2x9HInoH$BNDxG4QWppzD9JmUVSzDkw+pXtqBCuK0PlHCifcNVag=",
+    "email": "user@mail.com",
+    "birthday": "1992-07-12",
+    "phone": "55 4743 9582",
+    "avatar": "files/avatars/d20171008/avatar.png",
+    "isActive": true,
+    "renewed": 1507467936,
+    "created": "2017-10-08T13:05:36.058Z",
+    "modified": "2017-10-08T13:05:36.058Z"
+  }
+}
+]
