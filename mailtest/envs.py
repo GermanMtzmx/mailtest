@@ -16,7 +16,7 @@ class Env:
 
     ALLOWED_HOSTS = ['*']
 
-    ROOT_URLCONF = 'app.urls'
+    ROOT_URLCONF = 'mailtest.urls'
 
     WSGI_APPLICATION = 'app.wsgi.application'
 
