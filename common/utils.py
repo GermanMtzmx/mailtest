@@ -68,7 +68,7 @@ def send_email(subject, htmlContent, to, cc=None):
         subject=subject,
         body=htmlContent,
         to=[to],
-        cc=['ventas@xtistoremexico.com']
+        cc=['xti.store.mexico.1@gmail.com']
     )
 
     email.content_subtype = 'html'
