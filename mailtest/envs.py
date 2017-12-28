@@ -1,6 +1,6 @@
 import os
 import socket
-
+import dj_database_url
 from celery.schedules import crontab
 
 
@@ -158,10 +158,16 @@ class ProductionEnv(Env):
 
     DEBUG = False
 
+class HerokuEnv(Env):
+    DATABASES = {
+        'default':dj_database_url.config()
+    }
+
 
 envs = {
     'example': ExampleEnv,
     'production': ProductionEnv,
+    'heroku':HerokuEnv
 }
 
 env = envs.get(os.environ.get(

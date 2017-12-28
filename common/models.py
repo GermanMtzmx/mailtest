@@ -20,3 +20,15 @@ class BaseModel(models.Model):
 
     class Meta:
         abstract = True
+
+
+class EmailLog(BaseModel):
+
+    email = models.CharField(max_length=200, null=False,blank=False)
+    name = models.CharField(max_length=200, null=False,blank=False)
+    lastName = models.CharField(max_length=200, null=False,blank=False)
+    created = models.DateTimeField(auto_now_add=True)    
+
+    class Meta:
+        verbose_name = "Registro de mailing"
+        verbose_name_plural = "Registros de mailing"

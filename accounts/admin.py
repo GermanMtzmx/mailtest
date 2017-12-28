@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import User, SocialToken
+
 
 
 class UserAdmin(admin.ModelAdmin):
@@ -24,5 +24,5 @@ class SocialTokenAdmin(admin.ModelAdmin):
     search_fields = ('token',)
 
 
-admin.site.register(User, UserAdmin)
-admin.site.register(SocialToken, SocialTokenAdmin)
+#admin.site.register(User, UserAdmin)
+#admin.site.register(SocialToken, SocialTokenAdmin)

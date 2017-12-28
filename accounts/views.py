@@ -28,6 +28,7 @@ from .serializers import (
 )
 
 from common.utils import send_email
+from common.models import EmailLog
 
 
 class SendCoupon(APIView):
@@ -42,7 +43,11 @@ class SendCoupon(APIView):
                 request.data.get('name', ''), request.data.get('lastName', '')) 
             })
 
-        print(html)
+        EmailLog.objects.create(
+            email = request.data.get('email'),
+            name = request.data.get('name'),
+            lastName = request.data.get('lastName')
+        )
 
         send_email(
             '¡Xtistore - Obten tu descuento!',

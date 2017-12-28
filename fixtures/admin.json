@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$o7UUP5fxyOnc$qri4AHoSZgO0Fsi6l9Ih1mI8iA6N+tDH5BgNia8pmdg=",
+    "last_login": "2017-12-28T01:56:45.783Z",
+    "is_superuser": true,
+    "username": "adrian",
+    "first_name": "",
+    "last_name": "",
+    "email": "adrian@mail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-12-28T01:56:17.517Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

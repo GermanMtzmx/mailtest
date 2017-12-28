@@ -106,3 +106,4 @@ class SocialToken(BaseModel):
         verbose_name = _('social token')
         verbose_name_plural = _('social tokens')
         ordering = ('token',)
+
